@@ -50,3 +50,7 @@ git.is_valid_repository() {
         return 1;
     fi
 }
+
+git.hard_reset() {
+    git reset --hard;
+}
